@@ -30,12 +30,18 @@ nav {
     display: flex;
     justify-content: center;
     margin: 2% 0%;
+    @include respond-to(mob) { 
+      margin: 5% 0%;
+  }
 }
 
 nav a, nav a:active {
     text-decoration: none;
     color: black;
     margin: 0% 1%;
+    @include respond-to(mob) { 
+      margin: 0% 4%;
+  }
 }
 
 nav a:hover {

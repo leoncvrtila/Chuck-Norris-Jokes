@@ -50,10 +50,10 @@ h1 {
     @include respond-to(mob) { 
         width: 95%;
         padding: 8%;
-      }
-      @include respond-to(medium-screens) { 
+    }
+    @include respond-to(medium-screens) { 
         width: 42%;
-      }
+    }
 }
 
 .Joke p {
