@@ -1,0 +1,60 @@
+/*-----------------RESPONSIVE*/
+/*-----------------MAIN*/
+h1 {
+  text-align: center;
+}
+
+.AllItems, .Favorites {
+  width: 90%;
+  margin: auto;
+}
+
+.AllJokes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.Joke {
+  width: 25%;
+  padding: 2%;
+  border: 1px solid #e1e1e1;
+  margin-top: 2%;
+}
+
+@media only screen and (max-width: 425px) {
+  .Joke {
+    width: 95%;
+    padding: 8%;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .Joke {
+    width: 42%;
+  }
+}
+
+.Joke p {
+  height: 80%;
+  font-size: 14px;
+}
+
+.Joke img {
+  height: 25px;
+  width: 25px;
+}
+
+.FavoriteButton {
+  width: 25px;
+}
+
+.FavoriteButton img {
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

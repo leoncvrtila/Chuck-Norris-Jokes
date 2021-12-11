@@ -1,0 +1,22 @@
+/*-----------------RESPONSIVE*/
+/*-----------------NAV*/
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2% 0%;
+}
+
+nav a, nav a:active {
+  text-decoration: none;
+  color: black;
+  margin: 0% 1%;
+}
+
+nav a:hover {
+  color: #2828a8;
+}
+/*# sourceMappingURL=nav.css.map */
